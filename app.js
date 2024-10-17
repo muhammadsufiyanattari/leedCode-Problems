@@ -48,3 +48,24 @@
 
 // console.log(
 //   containsDuplicate(nums));
+
+
+// palaindrom
+
+let s='civic'
+var isPalindrome = function(s) {
+
+    // Step 1: Sab letters ko lowercase mein convert karo aur non-alphanumeric characters hatao
+    let cleanedString = s.toLowerCase().replace(/[^a-z0-9]/g, '');
+    
+    // Step 2: Check karo agar cleaned string ulta aur seedha ek jaisi hai ya nahi
+    let reversedString = cleanedString.split('').reverse().join('');
+    
+    return cleanedString === reversedString?true:false
+
+
+
+
+
+};
+isPalindrome()
