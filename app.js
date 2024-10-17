@@ -1,7 +1,7 @@
 //  * @param {number[]} nums
 //  * @return {number[]}
 
-//                 1
+                // 1
 // var getConcatenation = function(nums) {
 //     let arr = []
 //     for(let i=0; i < nums.length; i++) {
@@ -14,6 +14,7 @@
 // };
 // // }
 // console.log(getConcatenation([1,2,3,4]));
+// // console.log(getConcatenation([2,4]));
 
 //                   2
 
@@ -52,20 +53,20 @@
 
 // palaindrom
 
-let s='civic'
-var isPalindrome = function(s) {
+// let s='civic'
+// var isPalindrome = function(s) {
 
-    // Step 1: Sab letters ko lowercase mein convert karo aur non-alphanumeric characters hatao
-    let cleanedString = s.toLowerCase().replace(/[^a-z0-9]/g, '');
+//     // Step 1: Sab letters ko lowercase mein convert karo aur non-alphanumeric characters hatao
+//     let cleanedString = s.toLowerCase().replace(/[^a-z0-9]/g, '');
     
-    // Step 2: Check karo agar cleaned string ulta aur seedha ek jaisi hai ya nahi
-    let reversedString = cleanedString.split('').reverse().join('');
+//     // Step 2: Check karo agar cleaned string ulta aur seedha ek jaisi hai ya nahi
+//     let reversedString = cleanedString.split('').reverse().join('');
     
-    return cleanedString === reversedString?true:false
+//     return cleanedString === reversedString?true:false
 
 
 
 
 
-};
-isPalindrome()
+// };
+// isPalindrome()
