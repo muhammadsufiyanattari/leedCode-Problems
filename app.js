@@ -84,7 +84,7 @@
 
 // Example 1:
 
-let num = 38;
+// let num = 38;
 // Output: 2
 // Explanation: The process is
 // 38 --> 3 + 8 --> 11
@@ -102,12 +102,37 @@ let num = 38;
  
 
 // Follow up: Could you do it without any loop/recursion in O(1) runtime?
-let arr=[];
-function digitsMy() { 
-    
- return    (num ) % 9;
-    // arr.push(num);
+// let arr=[];
 
-    return 
-}
-console.log(digitsMy());
+
+// var addDigits = function(num) {
+    
+   
+//     if(num==0){return 0
+    
+//     }
+//     else{
+//         return num % 9=== 0? 9: num % 9;
+//     }
+        
+    
+    
+    
+//     };
+
+
+// Q 2942
+
+// let words = ["leet","code"], x = "e";
+// var findWordsContaining = function(words, x) {
+//     let result = [];
+//      for (let i = 0; i < words.length; i++) {
+//          if (words[i].includes(x)) {
+//              result.push(i);
+//          }
+//      }
+//      return result;
+ 
+
+//      }
+//      findWordsContaining(words,x)
