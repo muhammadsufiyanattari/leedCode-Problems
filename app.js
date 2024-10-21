@@ -136,3 +136,23 @@
 
 //      }
 //      findWordsContaining(words,x)
+
+
+// 242. Valid Anagram
+let s = "tab", t = "bat"
+
+Output: true
+
+var isAnagram = function(s, t) {
+    let result= false;
+     let array = s.split("").sort();
+     let array1 = t.split("").sort();
+     for (let i = 0; i < array.length; i++) {
+  let result= array[i]==array1[i]?true:false
+ 
+
+}
+return result
+    
+};
+console.log(isAnagram(s,t));
