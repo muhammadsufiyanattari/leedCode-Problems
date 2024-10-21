@@ -139,20 +139,18 @@
 
 
 // 242. Valid Anagram
-let s = "tab", t = "bat"
+// let s = "lab", t = "bal"
 
-Output: true
+// Output: true
 
-var isAnagram = function(s, t) {
-    let result= false;
-     let array = s.split("").sort();
-     let array1 = t.split("").sort();
-     for (let i = 0; i < array.length; i++) {
-  let result= array[i]==array1[i]?true:false
- 
+// var isAnagram = function(s, t) {
+//  let result="";
+//  s.toLocaleLowerCase()
+//  t.toLocaleLowerCase()
+//      let array = s.split("").sort().join();
+//      let array1 = t.split("").sort().join();
 
-}
-return result
-    
-};
-console.log(isAnagram(s,t));
+//      return result=array==array1?true:false
+   
+// };
+// console.log(isAnagram(s,t));
