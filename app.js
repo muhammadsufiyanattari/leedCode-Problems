@@ -205,8 +205,8 @@
 
 // self Problem
 
-// let arr=['islamabad','karachi','lahore']
-// console.log('before' ,arr);
+let arr=['islamabad','karachi','lahore']
+console.log('before' ,arr);
 
 
 // mujhe arr ko update kana he wo aese lahore ko 0 index par lana he but kusch condition hen
@@ -223,3 +223,9 @@
 
 // 'after',arr);
 
+
+arr[0]=arr[1]
+arr[1]=arr[0]
+arr[2]='faislabad'
+
+console.log('after',arr);
