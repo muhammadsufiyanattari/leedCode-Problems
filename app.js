@@ -123,6 +123,9 @@
 
 // Q 2942
 
+
+
+
 // let words = ["leet","code"], x = "e";
 // var findWordsContaining = function(words, x) {
 //     let result = [];
@@ -138,7 +141,8 @@
 //      findWordsContaining(words,x)
 
 
-// 242. Valid Anagram
+
+// Q : 242. Valid Anagram
 // let s = "lab", t = "bal"
 
 // Output: true
@@ -154,3 +158,68 @@
    
 // };
 // console.log(isAnagram(s,t));
+
+
+
+
+
+// 2621. Sleep
+// Solved
+// Easy
+// Companies
+// Hint
+// Given a positive integer millis, write an asynchronous function that sleeps for millis milliseconds. It can resolve any value.
+
+ 
+
+// Example 1:
+
+// let= millis = 100;
+// // Output: 100
+// // Explanation: It should return a promise that resolves after 100ms.
+// let t = Date.now();
+// sleep(100).then(() => {
+//   console.log(Date.now() - t); // 100
+// })
+
+
+
+//   ye khe rahe hen hame eik aesa function bane ke do jo kuc de bad value return kare
+// /**
+// //  * @param {number} millis
+// // //  * @return {Promise}
+//  */
+// async function sleep(millis) {
+    // return  new Promise(resolve => setTimeout(resolve, millis));
+    // return setTimeout(millis,millis)
+// }
+// pandding
+/** 
+ * let t = Date.now()
+ * sleep(100).then(() => console.log(Date.now() - t)) // 100
+ */
+// console.log(sleep(millis));
+
+
+
+
+// self Problem
+
+let arr=['islamabad','karachi','lahore']
+console.log('before' ,arr);
+
+
+// mujhe arr ko update kana he wo aese lahore ko 0 index par lana he but kusch condition hen
+//
+
+// 1)new variable nahi banana 
+// 2)array ke methad use nahi karne
+// 3)or arr ke reference ko change nahi karna
+
+arr[0]=[arr[1],arr[1]=arr[0]][0],
+
+console.log(
+   
+
+'after',arr);
+
