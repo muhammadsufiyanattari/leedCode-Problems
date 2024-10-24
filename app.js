@@ -205,8 +205,8 @@
 
 // self Problem
 
-let arr=['islamabad','karachi','lahore']
-console.log('before' ,arr);
+// let arr=['islamabad','karachi','lahore']
+// console.log('before' ,arr);
 
 
 // mujhe arr ko update kana he wo aese lahore ko 0 index par lana he but kusch condition hen
@@ -224,8 +224,118 @@ console.log('before' ,arr);
 // 'after',arr);
 
 
-arr[0]=arr[1]
-arr[1]=arr[0]
-arr[2]='faislabad'
+// arr[0]=arr[1]
+// arr[1]=arr[0]
+// arr[2]='faislabad'
 
-console.log('after',arr);
+// console.log('after',arr);
+
+// continue karon ga
+
+
+
+
+
+
+// 2621. Sleep
+// Solved
+// Easy
+// Companies
+// Hint
+// Given a positive integer millis, write an asynchronous function that sleeps for millis milliseconds. It can resolve any value.
+
+ 
+
+// Example 1:
+
+// let millis = 100
+// // Output: 100
+// // Explanation: It should return a promise that resolves after 100ms.
+// let t = Date.now();
+// sleep(100).then(() => {
+//   console.log(Date.now() - t); // 100
+// });
+// // Example 2:
+
+// // let millis = 200
+// // Output: 200
+// // Explanation: It should return a promise that resolves after 200ms.
+ 
+
+// // Constraints:
+
+// 1 <= millis <= 1000
+
+
+// // Is me ye khe raha he eik function banao jo ap ko kuch der bad return kare
+
+
+// // /**
+// //  * @param {number} millis
+// //  * @return {Promise}
+// //  */
+// async function sleep(millis) {
+//     //   return new Promise(resolve => setTimeout(resolve, millis));/
+
+
+//     //   hum ne eik promise return kya he jis me value reslove kardi he phir function me set time
+//     // out banaya he ye kuch der bad chale ga 
+//     // setTimeout do value leta he 1:value or
+//     //  2:time ye time millisecand me leta he
+//     return new Promise (resolve=>setTimeout(resolve,millis))
+//     }
+    
+//     /** 
+//      * let t = Date.now()
+//      * sleep(100).then(() => console.log(Date.now() - t)) // 100
+//      */
+
+
+
+
+// 2620. Counter
+// Solved
+// Easy
+// Companies
+// Hint
+// Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
+
+ 
+
+// Example 1:
+
+
+ let n = 10 
+// ["call","call","call"]
+// Output: [10,11,12]
+// Explanation: 
+// counter() = 10 // The first time counter() is called, it returns n.
+// counter() = 11 // Returns 1 more than the previous time.
+// counter() = 12 // Returns 1 more than the previous time.
+// Example 2:
+
+Input: 
+// n = -2
+// ["call","call","call","call","call"]
+// Output: [-2,-1,0,1,2]
+// Explanation: counter() initially returns -2. Then increases after each sebsequent call.
+ 
+
+
+// /**
+//  * @param {number} n
+//  * @return {Function} counter
+//  */
+// var createCounter = function(n) {
+    
+//     return function() {
+
+//     return n++
+    
+//     };
+// };
+
+ 
+//   const counter = createCounter(10)
+//   counter() 
+// console.log(createCounter(n));
