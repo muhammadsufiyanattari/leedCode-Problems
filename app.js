@@ -339,3 +339,16 @@ Input:
 //   const counter = createCounter(10)
 //   counter() 
 // console.log(createCounter(n));
+
+
+
+// hello Worker;dcncosgicks hwuh
+// BaseAudioContext
+// mnsk
+// scrollbars
+// localStorage,satisfies
+// XSLTProcessor
+// DOMExceptionx
+// XMLDocument
+// false
+// addEventListener
