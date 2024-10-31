@@ -305,7 +305,7 @@
 // Example 1:
 
 
- let n = 10 
+//  let n = 10 
 // ["call","call","call"]
 // Output: [10,11,12]
 // Explanation: 
@@ -314,7 +314,7 @@
 // counter() = 12 // Returns 1 more than the previous time.
 // Example 2:
 
-Input: 
+// Input: 
 // n = -2
 // ["call","call","call","call","call"]
 // Output: [-2,-1,0,1,2]
@@ -341,14 +341,30 @@ Input:
 // console.log(createCounter(n));
 
 
+// let s="aa";
+// console.log(num);
 
-// hello Worker;dcncosgicks hwuh
-// BaseAudioContext
-// mnsk
-// scrollbars
-// localStorage,satisfies
-// XSLTProcessor
-// DOMExceptionx
-// XMLDocument
-// false
-// addEventListener
+// function longestSubstringBetweenEqualCharacters(s) {
+//     let maxLen = -1;
+    
+//     for (let i = 0; i < s.length; i++) {
+//         for (let j = i + 1; j < s.length; j++) {
+//             if (s[i] === s[j]) {
+//                 let currentLen = j - i - 1;
+//                 console.log( 'currentLen', j - i - 1);
+                
+//                 if (currentLen > maxLen) {
+//                     maxLen = currentLen;
+//                 }
+//             }
+//         }
+//     }
+    
+//     return maxLen;
+// }
+
+// Example Usage:
+// console.log(longestSubstringBetweenEqualCharacters("aa")); // Output: 0
+// console.log(longestSubstringBetweenEqualCharacters("abca")); // Output: 2
+// console.log(longestSubstringBetweenEqualCharacters("cbzxy")); // Output: -1
+// console.log(longestSubstringBetweenEqualCharacters("vndw")); // Output: -1
